@@ -27,3 +27,24 @@ Color Matcher is a simple yet exciting game where colored blocks fall from the t
 -Build combos by hitting blocks consecutively
 <br>
 -Avoid missing blocks or you'll lose hearts
+
+
+
+# Installation
+
+bash
+git clone https://github.com/Aakashi06/Color-Matcher-Game.git
+<br>
+cd Color-Matcher-Game
+
+<br>
+
+Open index.html in your browser and start playing
+<br>
+
+Built With:
+Pure HTML, CSS, and JavaScript - no frameworks needed!
+
+Made with ❤️ by Aakashi
+
+
