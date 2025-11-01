@@ -5,7 +5,9 @@ Color Matcher is a simple yet exciting game where colored blocks fall from the t
 
 # Features
 - Six colors to match (Red, Blue, Green, Yellow, Purple, Orange)
+  <br>
 -Exciting particle effects when you score
+<br>
 -Cool sound effects
 -Combo system - chain hits for higher scores
 -5 lives to keep you in the game
