@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Matcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="top-bar">
+      <div class="top-left">
+        <div class="score-wrap" aria-label="Score">
+          <div class="score-label">SCORE</div>
+          <div id="scoreOdometer" class="score-odometer" data-score="00000">00000</div>
+        </div>
+      </div>
+      <div class="top-center">
+        <div id="comboBadge" class="combo-badge">
+          <span class="combo-icon" aria-hidden="true">⚡</span>
+          <span class="combo-text">COMBO</span>
+          <span id="comboValue" class="combo-value">x1</span>
+        </div>
+      </div>
+      <div class="top-right">
+        <div class="level-wrap" aria-label="Level">
+          <svg class="level-ring" viewBox="0 0 44 44" width="44" height="44">
+            <circle cx="22" cy="22" r="18" class="ring-bg"></circle>
+            <circle cx="22" cy="22" r="18" class="ring-fg" id="levelRing"></circle>
+          </svg>
+          <div class="level-text">LEVEL <span id="levelValue">1</span></div>
+        </div>
+        <div class="lives-wrap" aria-label="Lives">
+          <div id="livesHearts" class="hearts" data-lives="5"></div>
+        </div>
+        <button id="pauseButton" class="pause-btn" aria-label="Pause">
+          <span>⏸</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="game-area">
+      <div class="ambient"></div>
+      <div class="vignette"></div>
+      <canvas id="gameCanvas" width="960" height="540" aria-label="Game Canvas"></canvas>
+      <div id="overlay" class="overlay">
+        <div class="panel" id="startPanel">
+          <h1>Color Matcher</h1>
+          <p>Match falling blocks by pressing their color keys inside the hit zone.</p>
+          <ul class="instructions">
+            <li>R = Red, B = Blue, G = Green, Y = Yellow, P = Purple, O = Orange</li>
+            <li>Press key when the block is in the highlighted hit zone.</li>
+            <li>Space to Pause/Resume.</li>
+          </ul>
+          <button id="startButton" class="primary">Start Game</button>
+        </div>
+
+        <div class="panel hidden" id="pausePanel">
+          <h2>Paused</h2>
+          <p>Press Space to resume.</p>
+        </div>
+
+        <div class="panel hidden" id="gameOverPanel">
+          <h2>Game Over</h2>
+          <p>Your Score: <span id="finalScore">0</span></p>
+          <button id="restartButton" class="primary">Restart</button>
+        </div>
+      </div>
+
+      <div class="bottom-bar" aria-label="Key Reference Guide">
+        <div class="keymap-grid large">
+          <div class="key-item"><span class="key k-glow" style="--c:#ff4d4f">R</span><span class="label">Red</span></div>
+          <div class="key-item"><span class="key k-glow" style="--c:#4096ff">B</span><span class="label">Blue</span></div>
+          <div class="key-item"><span class="key k-glow" style="--c:#52c41a">G</span><span class="label">Green</span></div>
+          <div class="key-item"><span class="key k-glow" style="--c:#fadb14">Y</span><span class="label">Yellow</span></div>
+          <div class="key-item"><span class="key k-glow" style="--c:#9254de">P</span><span class="label">Purple</span></div>
+          <div class="key-item"><span class="key k-glow" style="--c:#fa8c16">O</span><span class="label">Orange</span></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>Made with ❤️ </span>
+    </footer>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+<!--
+  Controls:
+  - R (Red), B (Blue), G (Green), Y (Yellow), P (Purple), O (Orange)
+  - Space to Pause/Resume
+-->
+</html>
+
+
