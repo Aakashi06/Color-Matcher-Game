@@ -27,6 +27,9 @@ Color Matcher is a simple yet exciting game where colored blocks fall from the t
 -Avoid missing blocks or you'll lose hearts
 
 
+# Demo Video
+
+
 
 # Installation
 
@@ -43,6 +46,5 @@ Open index.html in your browser and start playing
 Built With:
 Pure HTML, CSS, and JavaScript - no frameworks needed!
 
-Made with ❤️ by Aakashi
 
 
