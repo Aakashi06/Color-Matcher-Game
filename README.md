@@ -49,7 +49,8 @@ Built With:
 Pure HTML, CSS, and JavaScript - no frameworks needed!
 
 
-# Game Link: https://color-matcher-game.vercel.app/
+# Game Link: 
+Play now: https://color-matcher-game.vercel.app/
 
 
 
