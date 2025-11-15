@@ -40,7 +40,6 @@ git clone https://github.com/Aakashi06/Color-Matcher-Game.git
 cd Color-Matcher-Game
 
 <br>
-
 Open index.html in your browser and start playing
 <br>
 
@@ -50,9 +49,6 @@ Pure HTML, CSS, and JavaScript - no frameworks needed!
 
 # Game Link: 
 Play now: https://color-matcher-game.vercel.app/
-
-
-
 
 
 
