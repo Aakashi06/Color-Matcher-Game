@@ -59,6 +59,3 @@ Play now: https://color-matcher-game.vercel.app/
 
 
 
-
-
-
