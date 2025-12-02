@@ -49,10 +49,3 @@ Pure HTML, CSS, and JavaScript - no frameworks needed!
 Play now: https://color-matcher-game.vercel.app/
 
 
-
-
-
-
-
-
-
