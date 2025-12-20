@@ -26,7 +26,6 @@ Color Matcher is a simple yet exciting game where colored blocks fall from the t
 <br>
 -Avoid missing blocks or you'll lose hearts
 
-
 # Demo Video
 <video></video
 
