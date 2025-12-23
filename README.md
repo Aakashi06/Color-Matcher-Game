@@ -32,7 +32,6 @@ Color Matcher is a simple yet exciting game where colored blocks fall from the t
 # Installation
 bash
 git clone https://github.com/Aakashi06/Color-Matcher-Game.git
-
 <br>
 cd Color-Matcher-Game
 
