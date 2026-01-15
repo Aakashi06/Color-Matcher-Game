@@ -43,12 +43,8 @@ Open index.html in your browser and start playing
 
 
 
-
-
-
-
 Built With:
-Pure HTML, CSS, and JavaScript - no frameworks needed!
+Pure HTML, CSS, and JavaScript - no frameworks 
 # Game Link: 
 Play now: https://color-matcher-game.vercel.app/
 
