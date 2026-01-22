@@ -1,5 +1,9 @@
 # Color-Matcher-Game
-Color Matcher is a simple yet exciting game where colored blocks fall from the top of the screen. Your job is to press the right keyboard key when each block reaches the glowing zone at the bottom. The faster you play, the harder it gets!
+Color Matcher is a simple yet exciting game where colored blocks fall from the top of the screen. 
+
+Your job is to press the right keyboard key when each block reaches the glowing zone at the bottom. 
+
+The faster you play, the harder it gets!
 
 # Features
 <br>
